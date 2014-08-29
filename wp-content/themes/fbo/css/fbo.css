@@ -1,0 +1,38 @@
+input.digits, input.date{
+    float:left;
+    text-align: center;
+    line-height: 1em;
+
+}
+
+input.digits{
+width:45px !important;
+    font-size: 14px;
+}
+
+input.date{
+    width:175px !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+div.button{
+    display:inline;
+    float:left;
+    width:26px;
+    height: 26px;
+    margin: 5px 5px !important;
+    border:thin solid lightslategray;
+}
+
+div.inc  {
+    background: url('/wp-content/themes/fbo/img/pm.png') no-repeat -1px -1px;
+
+    text-indent: -9999999px;
+}
+div.dec  {
+    background: url('/wp-content/themes/fbo/img/pm.png') no-repeat -32px -1px;
+
+    text-indent: -9999999px;
+}
